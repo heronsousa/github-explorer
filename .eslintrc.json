@@ -26,6 +26,7 @@
     ],
     "rules": {
         "prettier/prettier": "error",
+        "react/jsx-one-expression-per-line": "off",
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
         "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
@@ -46,7 +47,7 @@
                 "tsx": "never"
             }
         ],
-        "indent": ["error", 4, {"ignoredNodes": ["JSXElement *"]}],
+        "indent": "off",
         "react/jsx-indent": ["error", 4],
         "react/jsx-indent-props": ["error", 4],
         "camelcase": [0]
